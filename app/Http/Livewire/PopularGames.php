@@ -11,7 +11,7 @@ use Livewire\Component;
 class PopularGames extends Component
 {
     public $games = [];
-    public string $prefix = 'popular';
+    public $prefix = 'popular';
 
     public function fetch()
     {
