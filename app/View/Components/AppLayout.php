@@ -9,7 +9,7 @@ class AppLayout extends Component
     /**
      * Get the view / contents that represents the component.
      *
-     * @return \Illuminate\View\View
+     * @return \Closure|\Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\Support\Htmlable|\Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View|string
      */
     public function render()
     {
